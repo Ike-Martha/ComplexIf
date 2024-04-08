@@ -18,6 +18,9 @@ namespace ComplexIf
             else if
             ((compareValue == 42) || (compareValue < 90))
                 Console.WriteLine("You found one of the special numbers!");
+            else if
+               ((compareValue == 90) || (compareValue < 100))
+                Console.WriteLine("You have found the least special number");
             else
                 Console.WriteLine("You did not find one of the special numnbers");
             Console.ReadLine();
